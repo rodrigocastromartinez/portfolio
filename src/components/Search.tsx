@@ -5,12 +5,12 @@ import ArrowCard from "@components/ArrowCard"
 import SearchBar from "@components/SearchBar"
 
 type Props = {
-  data: CollectionEntry<"blog">[]
+  data: (CollectionEntry<"blog"> | CollectionEntry<"projects">)[]
 }
 
 export default function Search({ data }: Props) {
   const [query, setQuery] = createSignal("")
-  const [results, setResults] = createSignal<CollectionEntry<"blog">[]>([])
+  const [results, setResults] = createSignal<(CollectionEntry<"blog"> | CollectionEntry<"projects">)[]>([])
 
   const fuse = new Fuse(data, {
     keys: ["slug", "data.title", "data.summary", "data.tags"],
