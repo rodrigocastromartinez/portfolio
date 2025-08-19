@@ -16,11 +16,11 @@ Iris New Product is a mobile application built using Expo (SDK 52), a React Nati
 
 <div style="display: flex; gap: 32px; justify-content: center">
     <div style="display: flex; overflow-x: auto; width: 524px; gap: 32px;">
-        <img src="/src/content/projects/project-2/np-login.png" alt="NP 1" width="150"/>
-        <img src="/src/content/projects/project-2/np-form1.png" alt="NP 2" width="150"/>
-        <img src="/src/content/projects/project-2/np-form2.png" alt="NP 3" width="150"/>
-        <img src="/src/content/projects/project-2/np-form3.png" alt="NP 4" width="150"/>
-        <img src="/src/content/projects/project-2/np-form5.png" alt="NP 5" width="150"/>
+        <img src="/images/np-login.png" alt="NP 1" width="150"/>
+        <img src="/images/np-form1.png" alt="NP 2" width="150"/>
+        <img src="/images/np-form2.png" alt="NP 3" width="150"/>
+        <img src="/images/np-form3.png" alt="NP 4" width="150"/>
+        <img src="/images/np-form5.png" alt="NP 5" width="150"/>
     </div>
 </div>
 
