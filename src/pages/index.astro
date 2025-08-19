@@ -13,8 +13,6 @@ const projects: Project[] = (await getCollection("projects"))
   .sort((a: Project, b: Project) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
 
-  console.log(JSON.stringify(projects, null, 2));
-
 const stack = [
   { 
     text: "Astro", 
