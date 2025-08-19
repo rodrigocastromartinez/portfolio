@@ -6,11 +6,10 @@ import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
-import type { Project } from '../types'
 
-const projects: Project[] = (await getCollection("projects"))
-  .filter((project: Project) => !project.data.draft)
-  .sort((a: Project, b: Project) => b.data.date.getTime() - a.data.date.getTime())
+const projects = (await getCollection("projects"))
+  .filter(project => !project.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
 
 const stack = [
