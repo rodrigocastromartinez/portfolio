@@ -17,14 +17,14 @@ Iris Tactics is a cutting-edge mobile application developed with React Native. M
 
 <div style="display: flex; gap: 32px; justify-content: center">
     <div style="display: flex; overflow-x: auto; width: 524px; gap: 32px;">
-        <img src="/src/content/projects/project-1/tactics-login.png" alt="Tactics 1" width="150"/>
-        <img src="/src/content/projects/project-1/tactics-map.png" alt="Tactics 2" width="150"/>
-        <img src="/src/content/projects/project-1/tactics-logs-list.png" alt="Tactics 3" width="150"/>
-        <img src="/src/content/projects/project-1/tactics-new-log2.png" alt="Tactics 4" width="150"/>
-        <img src="/src/content/projects/project-1/tactics-new-log6.png" alt="Tactics 5" width="150"/>
-        <img src="/src/content/projects/project-1/tactics-ara.png" alt="Tactics 6" width="150"/>
-        <img src="/src/content/projects/project-1/tactics-ara-review2.png" alt="Tactics 7" width="150"/>
-        <img src="/src/content/projects/project-1/tactics-drawer.png" alt="Tactics 8" width="150"/>
+        <img src="/images/tactics-login.png" alt="Tactics 1" width="150"/>
+        <img src="/images/tactics-map.png" alt="Tactics 2" width="150"/>
+        <img src="/images/tactics-logs-list.png" alt="Tactics 3" width="150"/>
+        <img src="/images/tactics-new-log2.png" alt="Tactics 4" width="150"/>
+        <img src="/images/tactics-new-log6.png" alt="Tactics 5" width="150"/>
+        <img src="/images/tactics-ara.png" alt="Tactics 6" width="150"/>
+        <img src="/images/tactics-ara-review2.png" alt="Tactics 7" width="150"/>
+        <img src="/images/tactics-drawer.png" alt="Tactics 8" width="150"/>
     </div>
 </div>
 
