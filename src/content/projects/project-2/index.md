@@ -1,15 +1,25 @@
 ---
-title: "Project Two"
-summary: "Lorem ipsum dolor sit amet"
-date: "Mar 17 2022"
+title: "Iris NP Mobile App"
+summary: "Iris New Product is a smartphone application developed for Galician Fire Fighters, designed to report incidents."
+date: "Feb 2 2024"
 draft: false
 tags:
-- Svelte
-- Sveltekit
+- Expo
+- React Native
 - Typescript
-- Tailwind
+- React Native Paper
+- Material Design
+- Git
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Iris New Product is a mobile application built using Expo (SDK 52), a React Native-based framework, specifically designed for Galician firefighter teams. In this project, I have been responsible for making key decisions such as selecting the development framework and defining the styling approach, including the adoption of react-native-paper to implement Material Design components. My role also encompasses bug fixing, leading the development of new features, and driving design enhancements, all while upholding high standards of clean, well-structured, and efficient code. Additionally, I oversee the ongoing maintenance of the Azure code repository, ensuring effective and seamless collaboration within the development team.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+<div style="display: flex; gap: 32px; justify-content: center">
+    <div style="display: flex; overflow-x: auto; width: 524px; gap: 32px;">
+        <img src="/src/content/projects/project-2/np-login.png" alt="NP 1" width="150"/>
+        <img src="/src/content/projects/project-2/np-form1.png" alt="NP 2" width="150"/>
+        <img src="/src/content/projects/project-2/np-form2.png" alt="NP 3" width="150"/>
+        <img src="/src/content/projects/project-2/np-form3.png" alt="NP 4" width="150"/>
+        <img src="/src/content/projects/project-2/np-form5.png" alt="NP 5" width="150"/>
+    </div>
+</div>

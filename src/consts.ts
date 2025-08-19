@@ -2,7 +2,7 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
+  TITLE: "Rodrigo CM",
   DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
   AUTHOR: "Mark Horn",
 }
@@ -11,12 +11,6 @@ export const SITE: Site = {
 export const WORK: Page = {
   TITLE: "Work",
   DESCRIPTION: "Places I have worked.",
-}
-
-// Blog Page
-export const BLOG: Page = {
-  TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
 }
 
 // Projects Page 
@@ -42,10 +36,6 @@ export const LINKS: Links = [
     HREF: "/work", 
   },
   { 
-    TEXT: "Blog", 
-    HREF: "/blog", 
-  },
-  { 
     TEXT: "Projects", 
     HREF: "/projects", 
   },
@@ -56,26 +46,20 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "rodrigocastro.mdp@gmail.com",
+    HREF: "mailto:rodrigocastro.mdp@gmail.com",
   },
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "rodrigocastromartinez",
+    HREF: "https://github.com/rodrigocastromartinez"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
-  },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
-  },
+    TEXT: "/in/rodrigo-castro-martinez",
+    HREF: "https://www.linkedin.com/in/rodrigo-castro-martinez/",
+  }
 ]
 

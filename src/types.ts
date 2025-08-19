@@ -18,3 +18,18 @@ export type Socials = {
   TEXT: string
   HREF: string
 }[]
+
+export type Project = {
+    id: string,
+    slug: string,
+    body: string,
+    collection: string,
+    data: {
+      title: string,
+      summary: string,
+      date: Date,
+      tags: Array<string>,
+      draft: boolean,
+      demoUrl: string
+    }
+  }
