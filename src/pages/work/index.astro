@@ -42,8 +42,20 @@ function formatWorkDate(input: Date | string) {
             <div class="text-sm uppercase mb-4">
               {formatWorkDate(entry.data.dateStart)} - {formatWorkDate(entry.data.dateEnd)}
             </div>
-            <div class="text-black dark:text-white font-semibold">
-              {entry.data.company}
+            <div class="flex items-center gap-4 mb-4">
+              <div class="text-black dark:text-white font-semibold">
+                {entry.data.company}
+              </div>
+              {entry.data.url && 
+                <a href={entry.data.url} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+                  <svg class="size-4">
+                    <use href="/ui.svg#globe" class="fill-current group-hover:fill-black group-hover:dark:fill-white blend"/>
+                  </svg>
+                  <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+                    Check web site
+                  </span>
+                </a>
+              }
             </div>
             <div class="text-sm font-semibold">
               {entry.data.role}

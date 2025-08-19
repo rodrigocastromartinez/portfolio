@@ -1,8 +1,9 @@
 ---
-company: "Unblur"
+company: "UNBLUR"
 role: "Full-Stack Developer"
 dateStart: "Nov 2023"
 dateEnd: "Now"
+url: "https://www.unblur.co/"
 ---
 
 My role involves leading the development of new features and driving design improvements, always maintaining a high standard of clean, structured, and efficient code. I also oversee the entire release process, from preparation to deployment, ensuring seamless launches on both Google Play and the App Store. Additionally, I manage the ongoing maintenance of the code repository in Azure, ensuring smooth and efficient collaboration across the development team.
