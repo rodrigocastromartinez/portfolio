@@ -2,11 +2,11 @@
 company: "UNBLUR"
 role: "Full-Stack Developer"
 dateStart: "Nov 2023"
-dateEnd: "Now"
+dateEnd: "Aug 2025"
 url: "https://www.unblur.co/"
 ---
 
-My role involves leading the development of new features and driving design improvements, always maintaining a high standard of clean, structured, and efficient code. I also oversee the entire release process, from preparation to deployment, ensuring seamless launches on both Google Play and the App Store. Additionally, I manage the ongoing maintenance of the code repository in Azure, ensuring smooth and efficient collaboration across the development team.
+My role involved leading the development of new features and driving design improvements, always maintaining a high standard of clean, structured, and efficient code. I also oversaw the entire release process, from preparation to deployment, ensuring seamless launches on both Google Play and the App Store. Additionally, I managed the ongoing maintenance of the code repository in Azure, ensuring smooth and efficient collaboration across the development team.
 
 - Designed and developed a cross-platform mobile application using React Native CLI 0.73, leading the complete development cycle from conceptualization to launch on AppStore and Google Play.
 - Significantly optimized application performance through the development of an independent microservices architecture for the mapping service, reducing mobile resource consumption by 40% and implementing advanced ArcGIS integration.
