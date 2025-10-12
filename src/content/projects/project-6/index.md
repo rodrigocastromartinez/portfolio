@@ -17,11 +17,11 @@ DocMorris is Germany's largest digital healthcare platform and online pharmacy, 
 
 <div style="display: flex; gap: 32px; justify-content: center">
     <div style="display: flex; overflow-x: auto; width: 524px; gap: 32px;">
-        <img src="/images/skrach-landing.jpg" alt="Skrach 1" width="150"/>
-        <img src="/images/skrach-my-profile.jpg" alt="Skrach 2" width="150"/>
-        <img src="/images/skrach-project.jpg" alt="Skrach 3" width="150"/>
-        <img src="/images/skrach-recording.jpg" alt="Skrach 4" width="150"/>
-        <img src="/images/skrach-mixing.jpg" alt="Skrach 5" width="150"/>
+        <img src="/images/docmorris-home.png" alt="DocMorris 1" width="150"/>
+        <img src="/images/docmorris-home2.png" alt="DocMorris 2" width="150"/>
+        <img src="/images/docmorris-categorias.png" alt="DocMorris 3" width="150"/>
+        <img src="/images/docmorris-explora.png" alt="DocMorris 4" width="150"/>
+        <img src="/images/docmorris-profile.png" alt="DocMorris 5" width="150"/>
     </div>
 </div>
 
