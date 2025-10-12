@@ -62,6 +62,16 @@ const stack = [
 
   <script is:inline src="/js/bg.js"></script>
   
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    #about {
+      scroll-margin-top: 120px;
+    }
+  </style>
+  
   <!-- HERO -->
   <section class="relative h-screen w-full">
     <div id="planetcont" class='animate absolute inset-0 top-1/4 overflow-hidden'>
@@ -84,7 +94,10 @@ const stack = [
             I help other developers land their dream's job 🚀
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
-            <a href='/projects' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+            <a href='#about' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+              Mentoring
+            </a>
+            <a href='/projects' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
               Check out my projects
             </a>
             <a href='/work' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
@@ -100,7 +113,7 @@ const stack = [
     <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
 
       <!-- About Section -->
-      <section class="animate">
+      <section id="about" class="animate">
         <article>
           <p>I am a <b>Software Developer</b> with background as a <b>Mechanical Engineer</b>.</p>
           <p>Throughout my career, I've worked in various roles—both as a Software Developer and as a Mechanical Engineer. To get there, I've been through dozens of interviews: in English and Spanish; in Argentina, Spain, and remotely; with HR teams, hiring managers, and tech leads.</p>
